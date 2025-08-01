@@ -82,7 +82,7 @@ export default function Contact() {
                     <textarea 
                       id="message" 
                       name="message" 
-                      rows="6" 
+                      rows={6} 
                       placeholder="Please describe your project requirements, goals, and any specific features you need..."
                       required
                     ></textarea>
